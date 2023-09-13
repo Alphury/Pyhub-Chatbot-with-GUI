@@ -45,6 +45,7 @@ def check_all_messages(message):
     response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
     response('Love you too!', ['i', 'love', 'samah', 'code'], required_words=['i', 'samah'])
     response('Have some break!', ['i', 'am', 'samah', 'tired'], required_words=['tired', 'samah'])
+    response('My Name is Samah :)', ['your', 'name', 'what', 'is'], required_words=['your', 'name'])
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
     response(long.R_EATING, ['what', 'you', 'eat'], required_words=['you', 'eat'])
